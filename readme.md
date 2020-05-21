@@ -7,6 +7,14 @@ https://www.youtube.com/watch?v=ovs-HS0JgqY
 
 ---
 
+### GitlabPullMirror
+
+This is possible, but it comes with constraints.
+
+Source: https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html
+
+---
+
 > **2-Factor Auth** MUST be **disabled** on the Github Repo side
 
 > **Github Repo** MUST be a **Public Repo**
