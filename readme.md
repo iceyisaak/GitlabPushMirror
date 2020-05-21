@@ -9,4 +9,4 @@ https://www.youtube.com/watch?v=ovs-HS0JgqY
 
 
 Gitlab: Private Repo
-Github: Private Repo
+Github: Public Repo
