@@ -1,15 +1,33 @@
 # Mirror-Github
 
-Test mirroring project to Github
+Test mirroring project to Github. This is a push repo hosted on gitlab, which will mirror all changes on the destination repo (in this case, Github)
 
 Source:
 https://www.youtube.com/watch?v=ovs-HS0JgqY
+
+---
 
 > **2-Factor Auth** MUST be **disabled** on the Github Repo side
 
 > **Github Repo** MUST be a **Public Repo**
 
+---
 
-Gitlab: Private Repo
+### Steps to Creating a Push Mirror Repo on Gitlab
 
-Github: Public Repo
+On Gitlab:
+
+1. Import project from destination repo by HTTPS URL
+2. Wait for Project to be cloned
+3. On the left panel, go to `Settings > Repository > Mirror a repository`
+4. Add Git repo URL as `https://<GITHUB_USERNAME>@github.com/<GITHUB_GROUP-NAME> OR <GITHUB_USERNAME>/<PROJECT-NAME>`
+5. Specify Mirror Direction as `Push`
+6. Add Github Password
+   - Be sure to **disable 2-Factor Auth on Github** for this to work
+7. Click `Mirror repository`
+   - Mirrored Repos will be listed below
+   - Wait couple of mins for the process to end
+8. Click on update button on the list & wait for the status
+9. Push new commit on Gitlab repo & check if the change is also seen on the mirroring Github repo
+
+Done: The changes on the Gitlab repo should also be seen on its mirroring repo on Github.
