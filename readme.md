@@ -1,6 +1,6 @@
 # Mirror-Github
 
-Test mirroring project to Github. This is a push repo hosted on gitlab, which will mirror all changes on the destination repo (in this case, Github)
+Test mirroring project to Github. This is a push repo hosted on Gitlab, which **only mirrors all changes happening in the Gitlab repo** on the destination repo (in this case, Github)
 
 Source:
 https://www.youtube.com/watch?v=ovs-HS0JgqY
