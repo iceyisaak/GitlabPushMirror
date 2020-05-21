@@ -26,7 +26,8 @@ On Gitlab:
    - Be sure to **disable 2-Factor Auth on Github** for this to work
 7. Click `Mirror repository`
    - Mirrored Repos will be listed below
-   - Wait couple of mins for the process to end
+   - Wait couple of mins for the process to end<br>
+     Page may need to be refreshed until the `Last Successful Update` is shown
 8. Click on update button on the list & wait for the status
 9. Push new commit on Gitlab repo & check if the change is also seen on the mirroring Github repo
 
