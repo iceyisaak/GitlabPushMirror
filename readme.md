@@ -19,8 +19,6 @@ Source: https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.
 
 > **Github Repo** MUST be a **Public Repo**
 
-> **File Deletions** are **NOT mirrored**
-
 ---
 
 ### Steps to Creating a Push Mirror Repo on Gitlab
